@@ -9,9 +9,40 @@ What are Servers?
 
 1 - Developers will develop the code
 2 - Runs the Unit test if everything goes well ask the DevOps person
-to build that code
-3 -
-4 -
-5 -
+to build that code and deploy the code on Dev server
+3 - Developer verifies that code on the Dev server
+4 - Request to DevOps person to deploy it on the integration server
+5 - Tester will ask DevOps to deploy the code to a QA server
+6 - Tester may ask again DevOps person deploy it on the Load(Performance)
+server, Security testing servers
+7 - DEvops person deploy application on Staging Servers
+(replica of production servers) UAT server on which uat is performed
+8 - To production server
+
+Issues in the manual Testing/deployment
+- Time consuming
+- If multiple developers are working there can be issues to build and to
+fix those issues we may need to look all of the newly added code
+- No automation means a lot of manual effort
+
+How to  build a simple job
+- login to the Jenkins http://jenkins.syntaxtechs.net:8080/login?from=%2F
+- user name/password admin
+- click on new item-give it a name
+- click on free style project
+- click on apply and save
+- scroll down to the page and click on build steps
+- write echo "message"
+- click on save and build the project
+
+
+
+
+
+
+
+
+
+
 
 
