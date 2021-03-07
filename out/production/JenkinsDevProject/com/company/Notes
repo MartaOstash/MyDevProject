@@ -1,0 +1,17 @@
+Jenkins:
+
+What are Servers?
+1) Stay power on all the tine
+2) String internet connection(in DBps) all the time
+3) A lot of resources like RAM disk ets
+
+============================================================
+
+1 - Developers will develop the code
+2 - Runs the Unit test if everything goes well ask the DevOps person
+to build that code
+3 -
+4 -
+5 -
+
+
